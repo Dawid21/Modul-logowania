@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+body{
+font-family: Verdana, Arial, Helvetica, serif;
+background-color: lightgray;
+font-size: 11px;
+}
+
+#all{
+margin: 0 auto;
+width: 40%;
+
+/*border: 1px solid;*/
+}
+
+#belka{
+color: white;
+background-color: gray;
+font-weight: bold;
+font-size: 14px;
+padding: 5px 10px;
+margin-top: 100px;
+border-radius: 4px 4px 0 0;
+}
+
+#okno{
+border: 1px solid gray;
+/*min-height: 250px;*/;
+padding: 10px;
+border-radius:  0 0 4px 4px;
+background-color: #E5E5E5;
+overflow: auto;
+}
+
+input{
+border: 1px solid gray;
+padding: 2px;
+margin: 5px;
+border-radius:  2px;
+}
+
+.klawisz {
+background-color: gray;
+color: white;
+font-weight: bold;
+font-size: 13px;
+}
+
+:focus{
+border: 1px dashed gray;
+}
+
+input:hover{
+background-color: lightgray;
+}
+.klawisz:hover{
+background-color: gray;
+}
+
+a:hover{
+color: gray;
+}
+
+a{
+text-decoration: none; 
+}
+
+.block{
+font-weight: bold;;
+color: black;
+display: block;
+border: 1px solid black;
+margin: 15px;
+padding: 10px;
+text-align: center;
+}
+
+table{
+width: 100%;
+}
+
+td, th{
+border: 1px solid black;
+padding: 2px;
+border-radius: 2px;
+text-align: center;
+}
+
+.error{
+color: red;
+padding: 5px;
+}
+
+th{
+
+}
